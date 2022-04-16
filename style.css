@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+h3{
+    background-color:#CCD1E4;
+    padding: 10px;
+}
+/* design for all banner like makeup shop hair shop */
+.banner-img{
+    height: auto;
+    width: 100%;
+}
+.brdr{
+    border: 1px solid grey;
+}
+
+/* navbar design starts from here */
+header{
+ 
+}
+.logo img{
+    width: 70px;
+    height: auto;
+    border-radius:10px;
+}
+.navbar-nav{
+    margin-left: 200px;
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar li a{
+    color: white;
+    background: pink;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar li a:hover{
+    background-color:rgba(255, 192, 203,0.5);
+    color:black;
+    padding: 10px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url("image/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title-desc h1{
+    font-size: bolder;
+    color: white;
+}
+.title-desc p{
+    font-size: 1.5rem;
+    font-family: 'Pacifico', 'cursive';
+    transition: 1.5s;
+    animation-name: title-anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-anim {
+    0%{
+        color: green;
+        font-size: 2rem;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: skyblue;
+        transform: scale(1.2);
+    }
+    75%{
+        color:orange;
+    }
+    100%{
+        color:violet;
+        font-size: 2rem;
+    }
+    
+}
+
+/* header design ends here,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* popular categories design starts from here.................. */
+
+#popular-categories .card:hover{
+    border: 1px solid red;
+}
+
+
+/* popular categories design ends here.................. */
+
+
+/* .........................makeup shop desgin starts from here............... */
+
+ /* view details and add to cart button design */
+.view-details a{
+    font-size: 10px;
+}
+.view-details{
+    display: none;
+}
+
+.product:hover .view-details{
+    display: block;
+
+}
+
+
+
+
+/* .........................makeup shop desgin ends from here............... */
+
+
+/* subscription part design starts from here */
+
+#subscription{
+    background-color: rgb(31, 21, 41);
+    padding:20px 10px;
+}
+#email{
+    width: 400px;
+}
+
+/* subscription part design ends  here */
+
+
+/* footer design starts from here */
+
+footer h6{
+    font-weight: bolder;
+}
+
+/* footer design ends here */
